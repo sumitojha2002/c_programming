@@ -1,4 +1,4 @@
-//WAP TO PRINT print first 10 terms of the followung series using for loop:
+//WAP TO PRINT print first 10 terms of the followung series using for loop: 1 5 9 ...
 
 #include <stdio.h>
 
