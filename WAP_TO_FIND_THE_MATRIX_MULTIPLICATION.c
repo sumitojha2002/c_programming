@@ -8,14 +8,14 @@ int main(){
 	printf("Enter the size for the r1 and c1 for the matrix A : ");
 	scanf("%d%d",&r1,&c1);
 	
-		printf("Enter the size for the r2 and c2 for the matrix A : ");
+		printf("Enter the size for the r2 and c2 for the matrix B : ");
 	scanf("%d%d",&r2,&c2);
 	
 	if(c1!=r2){
 		printf("The matrix multiplication is not possible.");
 		return 0;
 	}
-	
+	printf("\nEnter the value in matrix a: \n");
 	for(i=0;i<=r1-1;i++){
 		for(j=0;j<=c1-1;j++){
 		printf("\nEnter the value of the matrix a[%d][%d]= ",i,j);
@@ -23,7 +23,7 @@ int main(){
 	}
 	}
 	
-		
+	printf("\nEnter the value in matrix b: \n");	
 	for(i=0;i<=r2-1;i++){
 		for(j=0;j<=c2-1;j++){
 		printf("\nEnter the value of the matrix b[%d][%d]= ",i,j);
@@ -42,7 +42,7 @@ int main(){
 	printf("\nThe Elements of the matrix b is : \n");	
 	for(i=0;i<=r2-1;i++){
 		for(j=0;j<=c2-1;j++){
-		printf("a[%d][%d]=%d\t",i,j,b[i][j]);
+		printf("b[%d][%d]=%d\t",i,j,b[i][j]);
 	}
 	printf("\n");
 	}
